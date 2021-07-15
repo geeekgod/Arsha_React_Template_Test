@@ -6,6 +6,7 @@
     padding: 50px 30px;
     transition: all ease-in-out 0.4s;
     background: #fff;
+    border-radius: 1.4rem;
   }
   
   .services .icon-box .icon {

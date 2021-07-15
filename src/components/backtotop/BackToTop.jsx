@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useState ,useEffect} from "react";
 import "./backtotop.css";
 
 export const BackToTop = () => {
@@ -8,20 +8,25 @@ export const BackToTop = () => {
 
   const  toggleBacktotop = ()=>{
     if(window.scrollY>100){
-        setScrollBack(!scrollBack);
+        setScrollBack(true);
+    }
+    else if(window.scrollY<=100){
+      setScrollBack(false);
     }
 }
-
-  window.onload = function() {
-    toggleBacktotop();
+const scrollToTop = () =>{
+  window.scrollTo({
+    top: 0, 
+    behavior: 'smooth'
+  });
 };
-
-
+window.addEventListener('scroll', toggleBacktotop);
   return (
     <div>
       <a
         href="#"
-        class={scrollBack ? "back-to-top d-flex align-items-center justify-content-center active" : "back-to-top d-flex align-items-center justify-content-center"}
+        onClick={scrollToTop}
+        class={scrollBack ? "back-to-top active d-flex align-items-center justify-content-center" : "back-to-top d-flex align-items-center justify-content-center"}
       >
         <i class="bi bi-arrow-up-short"></i>
       </a>
