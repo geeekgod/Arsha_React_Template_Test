@@ -1,5 +1,9 @@
 import React from 'react';
 import './services.css';
+import appDevelopmentImg from '../../img/services-icon/app-devlopment.png';
+import contentDevelopmentImg from '../../img/services-icon/content-development.png'
+import translationImg from '../../img/services-icon/translation.png'
+import websiteDevelopmentImg from '../../img/services-icon/website-development.png';
 
 export const Services = () => {
     return (
@@ -8,39 +12,39 @@ export const Services = () => {
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>We are techies at head and content creators at heart!</p>
         </div>
 
         <div class="row">
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-md-6 my-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <div class="icon"><img src={contentDevelopmentImg} alt=""/></div>
+              <h4><a href="">Content Development</a></h4>
+              <p>We design and develop e-Learning, Website, Training and Marketing content to elevate your brand image and ethos.</p>
             </div>
           </div>
 
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <div class="icon"><img src={websiteDevelopmentImg} alt=""/></div>
+              <h4><a href="">Video Development</a></h4>
+              <p>We develop captivating and engaging 2D videos with stock character and illustrations. We also create new characters as per your requirements.</p>
             </div>
           </div>
 
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <div class="icon"><img src={translationImg} alt=""/></div>
+              <h4><a href="">Translation and Voiceovers</a></h4>
+              <p>We translate to localize your content making it personalized for your target audience.</p>
             </div>
           </div>
 
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <div class="icon"><img src={appDevelopmentImg} alt=""/></div>
+              <h4><a href="">Bespoke Web and Mobile App</a></h4>
+              <p>We design and develop bespoke web and mobile apps to suit your needs as per your target audience.</p>
             </div>
           </div>
 

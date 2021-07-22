@@ -24,13 +24,13 @@ export const Footer = () => {
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Arsha</h3>
+            <h3>SSINGULARITY</h3>
             <p>
-              A108 Adam Street <br/>
-              New York, NY 535022<br/>
-              United States <br/><br/>
-              <strong>Phone:</strong> +1 5589 55488 55<br/>
-              <strong>Email:</strong> info@example.com<br/>
+            Thane, Maharashtra
+            <br/>
+            <br/>
+              <strong>Phone:</strong> +91 99677 14270 <br/>
+              <strong>Email:</strong> info@ssingularity.co.in<br/>
             </p>
           </div>
 
@@ -74,10 +74,10 @@ export const Footer = () => {
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>SSINGULARITY</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by Our Tech Team
       </div>
     </div>
   </footer>

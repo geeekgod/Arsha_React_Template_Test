@@ -12,7 +12,7 @@
   
   .team .member .pic {
     overflow: hidden;
-    width: 180px;
+    /* width: 180px; */
     border-radius: 50%;
   }
   
@@ -94,4 +94,14 @@
   .team .member .social a + a {
     margin-left: 8px;
   }
-  
+  @media (max-width:768px) {
+    .team .member{
+      flex-direction: column;
+    }
+    .team .member .pic{
+      display: flex;
+      width: 60%;
+      margin: auto;
+      margin-bottom: 1rem;
+    }
+  }

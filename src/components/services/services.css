@@ -3,10 +3,11 @@
 --------------------------------------------------------------*/
 .services .icon-box {
     box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-    padding: 50px 30px;
+    padding: 40px 30px;
     transition: all ease-in-out 0.4s;
     background: #fff;
     border-radius: 1.4rem;
+    min-height: 302px;
   }
   
   .services .icon-box .icon {
@@ -18,7 +19,9 @@
     font-size: 36px;
     transition: 0.3s;
   }
-  
+  .services .icon-box img{
+    width: 6rem;
+  }
   .services .icon-box h4 {
     font-weight: 500;
     margin-bottom: 15px;

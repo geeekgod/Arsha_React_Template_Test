@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Header from "../components/header/Header";
 import Hero from "../components/hero/Hero";
 import Clients from "../components/clients/Clients";
@@ -16,20 +16,23 @@ import Footer from '../components/footer/Footer';
 import BackToTop from '../components/backtotop/BackToTop';
 
 export const Home = () => {
+  useEffect(() => {
+    document.title = "SSINGULARITY";
+  });
   return (
     <div>
       <Header />
       <Hero />
       <Clients />
       <About />
-      <WhyUs />
-      <Skills />
+      {/* <WhyUs />
+      <Skills /> */}
       <Services />
-      <CallToAction />
       <Portfolio />
+      <CallToAction />
       <Team />
-      <Pricing />
-      <Faq />
+      {/* <Pricing />
+      <Faq /> */}
       <Contact/>
       <Footer />
       <BackToTop/>

@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 #hero {
     width: 100%;
-    height: 80vh;
+    height: auto;
     background: #37517e;
   }
   
@@ -38,7 +38,13 @@
     color: #fff;
     background: #47b2e4;
   }
-  
+  #hero .hero-img{
+    display: flex;
+  }
+  #hero img{
+    width: 80%;
+    margin: auto;
+  }
   #hero .btn-get-started:hover {
     background: #209dd8;
   }
@@ -71,7 +77,6 @@
   
   @media (max-width: 991px) {
     #hero {
-      height: 100vh;
       text-align: center;
     }
     #hero .animated {
@@ -82,7 +87,7 @@
       text-align: center;
     }
     #hero .hero-img img {
-      width: 50%;
+      width: 80%;
     }
   }
   
@@ -97,13 +102,13 @@
       margin-bottom: 30px;
     }
     #hero .hero-img img {
-      width: 70%;
+      width: 80%;
     }
   }
   
   @media (max-width: 575px) {
     #hero .hero-img img {
-      width: 80%;
+      width: 100%;
     }
     #hero .btn-get-started {
       font-size: 16px;

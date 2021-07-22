@@ -10,12 +10,9 @@ export const Team = () => {
     <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>Team</h2>
+          <h2>Get to Know Us</h2>
           <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-            fugiat sit in iste officiis commodi quidem hic quas.
+          We would like to introduce ourselves to you and would be happy to connect and talk to you!
           </p>
         </div>
 
@@ -28,16 +25,16 @@ export const Team = () => {
             >
               <div class="pic">
                 <img
-                  src={teamMember1}
+                  src={teamMember2}
                   class="img-fluid"
                   alt=""
                 />
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
+                <h4>Shruti Singh</h4>
                 <span>Chief Executive Officer</span>
                 <p>
-                  Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                We call her the Founder and Strategist. She looks at Business Development, Marketing, Strategy, Finance and everything that you can think of!
                 </p>
                 <div class="social">
                   <a href="">
@@ -66,16 +63,16 @@ export const Team = () => {
             >
               <div class="pic">
                 <img
-                  src={teamMember2}
+                  src={teamMember1}
                   class="img-fluid"
                   alt=""
                 />
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>Lakshay Mittal</h4>
+                <span>Senior Manager, Business Development and Project Execution</span>
                 <p>
-                  Aut maiores voluptates amet et quis praesentium qui senda para
+                We call him the execution specialist. He looks at Project Management and Execution. He also takes up the Business Development and Marketing responsibilities for us!
                 </p>
                 <div class="social">
                   <a href="">
@@ -110,10 +107,10 @@ export const Team = () => {
                 />
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
+                <h4>Shreyas Shinde</h4>
+                <span>Manager, Marketing</span>
                 <p>
-                  Quisquam facilis cum velit laborum corrupti fuga rerum quia
+                We call him the new-ideas specialist. He looks after Marketing and is an expert to come up with new ideas all the time!
                 </p>
                 <div class="social">
                   <a href="">
@@ -148,10 +145,10 @@ export const Team = () => {
                 />
               </div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
+                <h4>Kritika Rangra</h4>
+                <span>Illustrator and Visual Designer</span>
                 <p>
-                  Dolorum tempora officiis odit laborum officiis et et accusamus
+                We call her an Artist. She looks at designing, illustrating, representing our ideas through visuals making everything look pretty and classic!
                 </p>
                 <div class="social">
                   <a href="">

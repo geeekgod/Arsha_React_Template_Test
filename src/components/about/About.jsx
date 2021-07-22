@@ -12,35 +12,13 @@ export const About = () => {
         <div class="row content">
           <div class="col-lg-6">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We are a tech startup providing you with apt, affordable and applicable solutions for all your business needs. We offer a suite of technology services like software development, web development, app development and enterprise architecture consulting. We work to deliver state-of-the-art products across industries.
             </p>
-            <ul>
-              <li>
-                <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
-                aliquip ex ea commodo consequat
-              </li>
-              <li>
-                <i class="ri-check-double-line"></i> Duis aute irure dolor in
-                reprehenderit in voluptate velit
-              </li>
-              <li>
-                <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
-                aliquip ex ea commodo consequat
-              </li>
-            </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.
+            We are content creators at heart! We design and develop content as per your requirements - from a training module to blogs, marketing posts and video content, we do it all. We also localize your content in multiple languages for your users. We record voiceovers to make the content sound good.
             </p>
-            <a href="#" class="btn-learn-more">
-              Learn More
-            </a>
           </div>
         </div>
       </div>
