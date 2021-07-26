@@ -17,7 +17,7 @@ export const Team = () => {
         </div>
 
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -55,7 +55,7 @@ export const Team = () => {
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4 mt-lg-0">
+          <div class="col-md-6 mt-4 mt-md-0">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -70,7 +70,7 @@ export const Team = () => {
               </div>
               <div class="member-info">
                 <h4>Lakshay Mittal</h4>
-                <span>Senior Manager, Business Development and Project Execution</span>
+                <span>Senior Manager, Business Development & Project Execution</span>
                 <p>
                 We call him the execution specialist. He looks at Project Management and Execution. He also takes up the Business Development and Marketing responsibilities for us!
                 </p>
@@ -93,7 +93,7 @@ export const Team = () => {
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4">
+          <div class="col-md-6 mt-4">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -131,7 +131,7 @@ export const Team = () => {
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4">
+          <div class="col-md-6 mt-4">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"

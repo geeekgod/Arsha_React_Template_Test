@@ -12,20 +12,17 @@
   
   .services .icon-box .icon {
     margin-bottom: 10px;
-  }
-  
-  .services .icon-box .icon i {
-    color: #47b2e4;
-    font-size: 36px;
-    transition: 0.3s;
+    display: flex;
   }
   .services .icon-box img{
     width: 6rem;
+    margin: auto;
   }
   .services .icon-box h4 {
     font-weight: 500;
     margin-bottom: 15px;
     font-size: 24px;
+    text-align: center;
   }
   
   .services .icon-box h4 a {
@@ -37,6 +34,7 @@
     line-height: 24px;
     font-size: 14px;
     margin-bottom: 0;
+    text-align: center;
   }
   
   .services .icon-box:hover {

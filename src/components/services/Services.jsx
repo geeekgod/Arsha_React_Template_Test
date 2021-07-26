@@ -3,7 +3,7 @@ import './services.css';
 import appDevelopmentImg from '../../img/services-icon/app-devlopment.png';
 import contentDevelopmentImg from '../../img/services-icon/content-development.png'
 import translationImg from '../../img/services-icon/translation.png'
-import websiteDevelopmentImg from '../../img/services-icon/website-development.png';
+import videoDevelopmentImg from '../../img/services-icon/video-development.png';
 
 export const Services = () => {
     return (
@@ -16,7 +16,7 @@ export const Services = () => {
         </div>
 
         <div class="row">
-          <div class="col-md-6 my-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><img src={contentDevelopmentImg} alt=""/></div>
               <h4><a href="">Content Development</a></h4>
@@ -24,9 +24,9 @@ export const Services = () => {
             </div>
           </div>
 
-          <div class="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><img src={websiteDevelopmentImg} alt=""/></div>
+              <div class="icon"><img src={videoDevelopmentImg} alt=""/></div>
               <h4><a href="">Video Development</a></h4>
               <p>We develop captivating and engaging 2D videos with stock character and illustrations. We also create new characters as per your requirements.</p>
             </div>
