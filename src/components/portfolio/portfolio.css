@@ -1,9 +1,10 @@
 .portfolio .portfolio-content{
-  margin: 1.5rem 0;
+  margin: 0.6rem 0;
 }
 .portfolio .portfolio-content img{
   width: 80%;
   border-radius: 15px;
+  margin: 1.2rem auto;
 }
 .portfolio .portfolio-content .img{
   padding: 0 2rem;
@@ -18,14 +19,38 @@
 .portfolio .portfolio-content.reverse{
   flex-direction: row-reverse;
 }
+.portfolio-content .social-icons{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.8rem;
+  padding: 1rem 0;
+}
+.portfolio .portfolio-content .social-icons i{
+  color: #1b75bc;
+  width: 2.3rem;
+  height: 2.3rem;
+  margin: 0.1rem 0.6rem;
+  border-radius: 50%;
+  background: #eff2f8;
+  display: flex;
+  transition: all ease-in-out 0.4s;
+}
+.portfolio-content .social-icons i::before{
+  font-size: 1.23rem;
+  margin: auto;
+}
+.portfolio .portfolio-content .social-icons i:hover{
+  color: #fff;
+  background: #47b2e4;
+  transform: translateY(-2px);
+}
 @media (max-width:768px) {
   .portfolio .portfolio-content img{
-    margin: 1.2rem auto;
     width: 100%;
     padding: 0;
   }
   .portfolio .portfolio-content , .portfolio .portfolio-content.reverse{
     flex-direction: column;
-    margin: 3rem 0;
+    margin: 1rem 0;
   }
 }

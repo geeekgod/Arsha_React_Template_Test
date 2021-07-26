@@ -1,8 +1,8 @@
 import React from "react";
-import teamMember1 from '../../img/team/team-1.jpg';
-import teamMember2 from '../../img/team/team-2.jpg';
-import teamMember3 from '../../img/team/team-3.jpg';
-import teamMember4 from '../../img/team/team-4.jpg';
+import shrutiImg from '../../img/team/Shruti.png';
+import lakshayImg from '../../img/team/LAKSHAY.png';
+import shreyasImg from '../../img/team/Shreyas.png';
+import kritikaImg from '../../img/team/Kritika.png';
 import './team.css';
 
 export const Team = () => {
@@ -25,7 +25,7 @@ export const Team = () => {
             >
               <div class="pic">
                 <img
-                  src={teamMember2}
+                  src={shrutiImg}
                   class="img-fluid"
                   alt=""
                 />
@@ -63,7 +63,7 @@ export const Team = () => {
             >
               <div class="pic">
                 <img
-                  src={teamMember1}
+                  src={lakshayImg}
                   class="img-fluid"
                   alt=""
                 />
@@ -101,7 +101,7 @@ export const Team = () => {
             >
               <div class="pic">
                 <img
-                  src={teamMember3}
+                  src={shreyasImg}
                   class="img-fluid"
                   alt=""
                 />
@@ -139,7 +139,7 @@ export const Team = () => {
             >
               <div class="pic">
                 <img
-                  src={teamMember4}
+                  src={kritikaImg}
                   class="img-fluid"
                   alt=""
                 />

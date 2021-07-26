@@ -12,8 +12,8 @@
   
   .team .member .pic {
     overflow: hidden;
-    /* width: 180px; */
     border-radius: 50%;
+    width: 100%;
   }
   
   .team .member .pic img {
