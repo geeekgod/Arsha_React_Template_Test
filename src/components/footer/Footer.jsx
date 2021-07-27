@@ -35,8 +35,8 @@ export const Footer = () => {
             <h4>Our Social Networks</h4>
             <p>Connect with Us!</p>
             <div class="social-links mt-3">
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/ssingularitytechnologies/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
               <a href="https://www.linkedin.com/company/ssingularity-technologies/"  target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               <a href="https://www.youtube.com/channel/UCI-BQW7t7FE9wMOisyssFGg" target="_blank" className="youtube"><i class='bx bxl-youtube'></i></a>
             </div>
