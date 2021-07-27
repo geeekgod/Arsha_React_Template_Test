@@ -38,27 +38,27 @@ export const Header = () => {
               </li>
               <li>
                 <a onClick={()=>{onMenuBtnClick()}} className="nav-link scrollto" href="#about">
-                  About
+                  About Us
                 </a>
               </li>
               <li>
                 <a onClick={()=>{onMenuBtnClick()}} className="nav-link scrollto" href="#services">
-                  Services
+                 Our Services
                 </a>
               </li>
               <li>
                 <a onClick={()=>{onMenuBtnClick()}} className="nav-link   scrollto" href="#portfolio">
-                  Portfolio
+                 Our Portfolio
                 </a>
               </li>
               <li>
                 <a onClick={()=>{onMenuBtnClick()}} className="nav-link scrollto" href="#team">
-                  Team
+                 Our Team
                 </a>
               </li>
               <li>
                 <a onClick={()=>{onMenuBtnClick()}} className="nav-link scrollto" href="#contact">
-                  Contact
+                  Contact Us
                 </a>
               </li>
             </ul>

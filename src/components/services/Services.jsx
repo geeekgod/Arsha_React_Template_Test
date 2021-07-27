@@ -7,7 +7,7 @@ import videoDevelopmentImg from '../../img/services-icon/video-development.png';
 
 export const Services = () => {
     return (
-        <section id="services" class="services section-bg">
+        <section id="services" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -19,7 +19,7 @@ export const Services = () => {
           <div class="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><img src={contentDevelopmentImg} alt=""/></div>
-              <h4><a href="">Content Development</a></h4>
+              <h4>Content Development</h4>
               <p>We design and develop e-Learning, Website, Training and Marketing content to elevate your brand image and ethos.</p>
             </div>
           </div>
@@ -27,15 +27,15 @@ export const Services = () => {
           <div class="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><img src={videoDevelopmentImg} alt=""/></div>
-              <h4><a href="">Video Development</a></h4>
-              <p>We develop captivating and engaging 2D videos with stock character and illustrations. We also create new characters as per your requirements.</p>
+              <h4>Video Development</h4>
+              <p>We develop captivating and engaging 2D videos with stock character and illustrations. We also create visual characters & assets as per your requirements.</p>
             </div>
           </div>
 
           <div class="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><img src={translationImg} alt=""/></div>
-              <h4><a href="">Translation and Voiceovers</a></h4>
+              <h4>Translation and Voiceovers</h4>
               <p>We translate to localize your content making it personalized for your target audience.</p>
             </div>
           </div>
@@ -43,7 +43,7 @@ export const Services = () => {
           <div class="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><img src={appDevelopmentImg} alt=""/></div>
-              <h4><a href="">Bespoke Web and Mobile App</a></h4>
+              <h4>Bespoke Web and Mobile App</h4>
               <p>We design and develop bespoke web and mobile apps to suit your needs as per your target audience.</p>
             </div>
           </div>

@@ -17,14 +17,14 @@ export const Portfolio = () => {
   }, []);
 
   return (
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio section-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Our Projects</h2>
           <p>
             We have developed multiple projects for our clients across the board
             ranging from app development to content services including
-            voicoevers and translation.
+            voiceovers and translation.
           </p>
         </div>
 

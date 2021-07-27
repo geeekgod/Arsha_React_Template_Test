@@ -1,8 +1,8 @@
 import React from "react";
-import shrutiImg from '../../img/team/Shruti.png';
-import lakshayImg from '../../img/team/LAKSHAY.png';
-import shreyasImg from '../../img/team/Shreyas.png';
-import kritikaImg from '../../img/team/Kritika.png';
+import shrutiImg from '../../img/team/shruti.png';
+import lakshayImg from '../../img/team/lakshay.png';
+import shreyasImg from '../../img/team/shreyas.png';
+import kritikaImg from '../../img/team/kritika.png';
 import './team.css';
 
 export const Team = () => {
@@ -37,16 +37,13 @@ export const Team = () => {
                 We call her the Founder and Strategist. She looks at Business Development, Marketing, Strategy, Finance and everything that you can think of!
                 </p>
                 <div class="social">
-                  <a href="">
-                    <i class="ri-twitter-fill"></i>
-                  </a>
-                  <a href="">
+                  <a href="https://www.facebook.com/people/Shruti-Singh/100067179288460/" target="_blank">
                     <i class="ri-facebook-fill"></i>
                   </a>
-                  <a href="">
+                  <a href="https://www.instagram.com/shrutiushinde/" target="_blank">
                     <i class="ri-instagram-fill"></i>
                   </a>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/shruti-shinde-35656178/" target="_blank">
                     {" "}
                     <i class="ri-linkedin-box-fill"></i>{" "}
                   </a>
@@ -70,21 +67,18 @@ export const Team = () => {
               </div>
               <div class="member-info">
                 <h4>Lakshay Mittal</h4>
-                <span>Senior Manager, Business Development & Project Execution</span>
+                <span>Head Project Management & Execution</span>
                 <p>
                 We call him the execution specialist. He looks at Project Management and Execution. He also takes up the Business Development and Marketing responsibilities for us!
                 </p>
                 <div class="social">
-                  <a href="">
-                    <i class="ri-twitter-fill"></i>
-                  </a>
-                  <a href="">
+                  <a href="https://www.facebook.com/lakshaymittal27" target="_blank">
                     <i class="ri-facebook-fill"></i>
                   </a>
-                  <a href="">
+                  <a href="https://www.instagram.com/oh_thought/" target="_blank">
                     <i class="ri-instagram-fill"></i>
                   </a>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/lakshaymittalpedagogy/" target="_blank">
                     {" "}
                     <i class="ri-linkedin-box-fill"></i>{" "}
                   </a>
@@ -113,16 +107,13 @@ export const Team = () => {
                 We call him the new-ideas specialist. He looks after Marketing and is an expert to come up with new ideas all the time!
                 </p>
                 <div class="social">
-                  <a href="">
-                    <i class="ri-twitter-fill"></i>
-                  </a>
-                  <a href="">
+                  <a href="https://facebook.com/shinde.shreyas?_rdr" target="_blank">
                     <i class="ri-facebook-fill"></i>
                   </a>
-                  <a href="">
+                  <a href="https://instagram.com/shrey_srt10" target="_blank">
                     <i class="ri-instagram-fill"></i>
                   </a>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/shreyas-shinde-447527110/" target="_blank">
                     {" "}
                     <i class="ri-linkedin-box-fill"></i>{" "}
                   </a>
@@ -146,21 +137,18 @@ export const Team = () => {
               </div>
               <div class="member-info">
                 <h4>Kritika Rangra</h4>
-                <span>Illustrator and Visual Designer</span>
+                <span>Illustrator & Visual Designer</span>
                 <p>
                 We call her an Artist. She looks at designing, illustrating, representing our ideas through visuals making everything look pretty and classic!
                 </p>
                 <div class="social">
-                  <a href="">
-                    <i class="ri-twitter-fill"></i>
-                  </a>
-                  <a href="">
+                  <a href="https://www.facebook.com/kritika.rangra" target="_blank">
                     <i class="ri-facebook-fill"></i>
                   </a>
-                  <a href="">
+                  <a href="https://www.instagram.com/starrrysea/" target="_blank">
                     <i class="ri-instagram-fill"></i>
                   </a>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/kritika-rangra-09/" target="_blank">
                     {" "}
                     <i class="ri-linkedin-box-fill"></i>{" "}
                   </a>

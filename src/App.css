@@ -1,8 +1,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* Loading the Font */
+/* Caslitoga */
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+/* Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Rubik:wght@300&display=swap');
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: #444444;
   }
   
@@ -17,7 +22,8 @@ body {
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Jost", sans-serif;
+    /* font-family: "Jost", sans-serif; */
+    font-family: 'Calistoga', cursive;
   }
   /*--------------------------------------------------------------
 # Sections General
@@ -38,7 +44,7 @@ section {
 
 .section-title h2 {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 20px;

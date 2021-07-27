@@ -13,7 +13,7 @@ export const Hero = () => {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <h1>Technology, Design and Content All at One Place</h1>
+            <h1>Technology, Design and Content All at One Place !</h1>
             <h2>
             If you are thinking of building a software, an app or a training module or simply writing a blog, you need 3 elements - technology, design and content. We have it all for you at one place!
             </h2>
