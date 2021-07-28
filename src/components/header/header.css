@@ -8,25 +8,42 @@
   }
   
   #header.header-scrolled, #header.header-inner-pages {
-    background: rgba(40, 58, 90, 0.9);
+    /* background: rgba(40, 58, 90, 0.9); template color */
+    /* background: rgba(48,51,107, 0.8); first color test */
+    background: rgba(255, 255, 255, 1);
   }
   
   #header .logo {
-    font-size: 30px;
+    font-size: 1.2rem;
     margin: 0;
-    padding: 0;
+    padding: 0 0.7rem;
     line-height: 1;
     font-weight: 500;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin: auto;
   }
   
-  #header .logo a {
+  #header .siteLogo{
+    display: flex;
+    flex-direction: row;
+  }
+  #header .siteLogo img{
+    width: 80px !important;
+  }
+  #header .logo a{
     color: #fff;
+  }
+  #header.header-scrolled .logo a {
+    /* color: #fff; template color */
+    color: rgba(48,51,107, 0.8);;
   }
   
   #header .logo img {
     max-height: 40px;
+  }
+  #header .navWrapper{
+    justify-content: space-between;
   }
   
   /*--------------------------------------------------------------
@@ -50,12 +67,18 @@
   .navbar li {
     position: relative;
   }
-  
+  .header-scrolled .navbar .active {
+    color: #47b2e4 !important;
+  }
+  .header-scrolled .navbar a{
+    /* color: #fff; */
+    color: rgba(48,51,107, 0.8);
+  }
   .navbar a, .navbar a:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0 10px 30px;
+    padding: 10px 0 10px 20px;
     font-size: 15px;
     font-weight: 500;
     color: #fff;
@@ -68,7 +91,6 @@
     line-height: 0;
     margin-left: 5px;
   }
-  
   .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
     color: #47b2e4;
   }

@@ -4,7 +4,9 @@
 #hero {
     width: 100%;
     height: auto;
-    background: #37517e;
+    /* background: #37517e; template color */
+    /* background: rgba(48,51,107, 0.9); */
+    background: rgba(72, 127, 177, 1);
   }
   
   #hero .container {
@@ -13,7 +15,7 @@
   
   #hero h1 {
     margin: 0 0 10px 0;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 56px;
     color: #fff;
@@ -23,6 +25,7 @@
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 50px;
     font-size: 24px;
+    font-weight: 600 !important;
   }
   
   #hero .btn-get-started {
@@ -58,7 +61,6 @@
     color: #fff;
     line-height: 1;
   }
-  
   #hero .btn-watch-video i {
     line-height: 0;
     color: #fff;

@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import './header.css';
+import logoImg from '../../img/logo.png';
 
 export const Header = () => {
 
@@ -25,10 +26,13 @@ export const Header = () => {
     // Header
     <>
       <header id="header" className={navbar ? "fixed-top header-scrolled" : "fixed-top "}>
-        <div className="container d-flex align-items-center">
+        <div className="container navWrapper d-flex align-items-center">
+          <div className="siteLogo">
+            <img src={logoImg} alt=""/>
           <h1 className="logo me-auto">
-            <a href="index.html">SSINGULARITY</a>
+            <a href="">SSINGULARITY TECHNOLOGIES</a>
           </h1>
+          </div>
           <nav id="navbar" className={mobileNav ? "navbar navbar-mobile" : "navbar"}>
             <ul>
               <li>
