@@ -67,7 +67,7 @@ export const Team = () => {
               </div>
               <div class="member-info">
                 <h4>Lakshay Mittal</h4>
-                <span>Head Project Management & Execution</span>
+                <span>Head, Project Management & Execution</span>
                 <p>
                 We call him the execution specialist. He looks at Project Management and Execution. He also takes up the Business Development and Marketing responsibilities for us!
                 </p>
