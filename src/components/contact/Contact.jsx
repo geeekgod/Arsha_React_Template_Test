@@ -33,7 +33,7 @@ export const Contact = () => {
                 <p>+91 99677 14270 </p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120562.31042846285!2d72.93141892629086!3d19.21387864584849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8fcfe76fd59%3A0xcf367d85f7c50283!2sThane%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1626966785959!5m2!1sen!2sin" frameborder="0" style={{border:"0", width:"100%",height:"290px"}} allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.118403037804!2d72.98624461490365!3d19.233670886997658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bbbcd4f20c15%3A0x4c36bff2609ee7cf!2sLodha%20Amara%20Thane!5e0!3m2!1sen!2sin!4v1627570256377!5m2!1sen!2sin" frameborder="0" style={{border:"0", width:"100%",height:"290px"}} allowfullscreen></iframe>
             </div>
 
           </div>
