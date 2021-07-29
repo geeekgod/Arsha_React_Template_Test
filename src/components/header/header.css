@@ -5,6 +5,7 @@
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
+    background: rgba(255, 255, 255, 1);
   }
   
   #header.header-scrolled, #header.header-inner-pages {
@@ -31,16 +32,13 @@
   #header .siteLogo img{
     width: 80px !important;
   }
-  #header .logo a{
-    color: #fff;
-  }
-  #header.header-scrolled .logo a {
+  #header .logo a {
     /* color: #fff; template color */
-    color: rgba(48,51,107, 0.8);;
+    color: rgba(48,51,107, 0.8);
   }
   
   #header .logo img {
-    max-height: 40px;
+    max-height: 2rem;
   }
   #header .navWrapper{
     justify-content: space-between;
@@ -81,7 +79,7 @@
     padding: 10px 0 10px 20px;
     font-size: 15px;
     font-weight: 500;
-    color: #fff;
+    color: rgba(48,51,107, 0.8);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -98,8 +96,9 @@
   * Mobile Navigation 
   */
   .mobile-nav-toggle {
-    color: #fff;
+    color: rgba(48,51,107, 0.8);
     font-size: 28px;
+    font-weight: 600;
     cursor: pointer;
     display: none;
     line-height: 0;

@@ -1,5 +1,5 @@
 import React from 'react';
-import synclarityLogoImg from '../../img/clients/synclarity-logo.png';
+import synclarityLogoImg from '../../img/clients/synclarity-logo_1.png';
 import tnaacademyLogoImg from '../../img/clients/tncaademy-logo.png';
 import questAllianceImg from '../../img/clients/quest-alliance-logo.jpg';
 import './clients.css';
