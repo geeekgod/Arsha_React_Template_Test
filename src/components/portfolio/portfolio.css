@@ -1,5 +1,7 @@
 .portfolio .portfolio-content{
   margin: 0.6rem 0;
+  background: #fff;
+  border-radius: 15px;
 }
 .portfolio .portfolio-content img{
   width: 80%;
@@ -15,6 +17,7 @@
 } 
 .portfolio .portfolio-content .contentBlock{
   margin: auto;
+  padding: 2rem;
 }
 .portfolio .portfolio-content.reverse{
   flex-direction: row-reverse;
@@ -39,18 +42,20 @@
   font-size: 1.23rem;
   margin: auto;
 }
+.portfolio .portfolio-content , .portfolio .portfolio-content{
+  margin: 2rem 0;
+}
 .portfolio .portfolio-content .social-icons i:hover{
   color: #fff;
   background: #47b2e4;
   transform: translateY(-2px);
 }
-@media (max-width:768px) {
+@media (max-width:968px) {
   .portfolio .portfolio-content img{
     width: 100%;
     padding: 0;
   }
   .portfolio .portfolio-content , .portfolio .portfolio-content.reverse{
     flex-direction: column;
-    margin: 1rem 0;
   }
 }
