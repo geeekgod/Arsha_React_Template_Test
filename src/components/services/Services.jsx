@@ -26,7 +26,7 @@ export const Services = () => {
 
           <div className="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="200">
             <div className="icon-box">
-              <div classNameName="icon"><img src={videoDevelopmentImg} alt=""/></div>
+              <div className="icon"><img src={videoDevelopmentImg} alt=""/></div>
               <h4>Video Development</h4>
               <p>We develop captivating and engaging 2D videos with stock character and illustrations. We also create visual characters & assets as per your requirements.</p>
             </div>
@@ -34,7 +34,7 @@ export const Services = () => {
 
           <div className="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div className="icon-box">
-              <div classNameName="icon"><img src={translationImg} alt=""/></div>
+              <div className="icon"><img src={translationImg} alt=""/></div>
               <h4>Translation and Voiceovers</h4>
               <p>We translate to localize your content making it personalized for your target audience.</p>
             </div>
@@ -42,7 +42,7 @@ export const Services = () => {
 
           <div className="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div className="icon-box">
-              <div classNameName="icon"><img src={appDevelopmentImg} alt=""/></div>
+              <div className="icon"><img src={appDevelopmentImg} alt=""/></div>
               <h4>Bespoke Web and Mobile App</h4>
               <p>We design and develop bespoke web and mobile apps to suit your needs as per your target audience.</p>
             </div>
