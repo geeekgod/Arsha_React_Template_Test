@@ -17,9 +17,9 @@ export const Portfolio = () => {
   }, []);
 
   return (
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
+    <section id="portfolio" className="portfolio section-bg">
+      <div className="container" data-aos="fade-up">
+        <div className="section-title">
           <h2>Our Projects</h2>
           <p>
             We have developed multiple projects for our clients across the board
@@ -29,7 +29,7 @@ export const Portfolio = () => {
         </div>
 
         <div
-          class="portfolio-container"
+          className="portfolio-container"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -49,9 +49,9 @@ export const Portfolio = () => {
                   @insightsinbytes.
                 </p>
                 <div className="social-icons">
-                  <a href="https://www.instagram.com/insightsinbytes/" target="_blank"><i class="fab fa-instagram"></i></a>
-                  <a href="https://m.facebook.com/Insightsinbytes/" target="_blank"><i class="fab fa-facebook"></i></a>
-                  <a href="https://www.youtube.com/channel/UCI-BQW7t7FE9wMOisyssFGg/" target="_blank"><i class="fab fa-youtube"></i></a>
+                  <a href="https://www.instagram.com/insightsinbytes/" target="_blank"><i className="fab fa-instagram"></i></a>
+                  <a href="https://m.facebook.com/Insightsinbytes/" target="_blank"><i className="fab fa-facebook"></i></a>
+                  <a href="https://www.youtube.com/channel/UCI-BQW7t7FE9wMOisyssFGg/" target="_blank"><i className="fab fa-youtube"></i></a>
                 </div>
               </div>
             </div>

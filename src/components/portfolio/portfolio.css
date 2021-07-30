@@ -2,6 +2,9 @@
   margin: 0.6rem 0;
   background: #fff;
   border-radius: 15px;
+  transition: all ease-in-out 0.4s;
+  cursor: pointer;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 .portfolio .portfolio-content img{
   width: 80%;
@@ -44,6 +47,9 @@
 }
 .portfolio .portfolio-content , .portfolio .portfolio-content{
   margin: 2rem 0;
+}
+.portfolio .portfolio-content:hover {
+  transform: translateY(-10px);
 }
 .portfolio .portfolio-content .social-icons i:hover{
   color: #fff;

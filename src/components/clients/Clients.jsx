@@ -7,21 +7,21 @@ import './clients.css';
 
 export const Clients = () => {
     return (
-        <section id="cliens" class="cliens ">
-        <div class="container">
+        <section id="cliens" className="cliens ">
+        <div className="container">
   
-          <div class="row" data-aos="zoom-in">
+          <div className="row" data-aos="zoom-in">
   
-            <div class="col-sm-4 d-flex align-items-center justify-content-center">
-              <img src={synclarityLogoImg} class="img-fluid" alt=""/>
+            <div className="col-sm-4 d-flex align-items-center justify-content-center">
+              <img src={synclarityLogoImg} className="img-fluid" alt=""/>
             </div>
   
-            <div class="col-sm-4 d-flex align-items-center justify-content-center">
-              <img src={tnaacademyLogoImg} class="img-fluid" alt=""/>
+            <div className="col-sm-4 d-flex align-items-center justify-content-center">
+              <img src={tnaacademyLogoImg} className="img-fluid" alt=""/>
             </div>
   
-            <div class="col-sm-4 d-flex align-items-center justify-content-center">
-              <img src={questAllianceImg} class="img-fluid" alt="" />
+            <div className="col-sm-4 d-flex align-items-center justify-content-center">
+              <img src={questAllianceImg} className="img-fluid" alt="" />
             </div>
   
           </div>

@@ -5,11 +5,11 @@ export const Footer = () => {
     return (
         <footer id="footer">
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
+    <div className="footer-top">
+      <div className="container">
+        <div className="row">
 
-          <div class="col-md-4 footer-contact">
+          <div className="col-md-4 footer-contact">
             <h3>SSINGULARITY</h3>
             <p>
             Thane, Maharashtra
@@ -20,25 +20,25 @@ export const Footer = () => {
             </p>
           </div>
 
-          <div class="col-md-4 footer-links">
+          <div className="col-md-4 footer-links">
             <h4>Our Blogs</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Technology</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Content</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Videos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Voiceovers & Translations</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a href="#">Technology</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a href="#">Design</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a href="#">Content</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a href="#">Videos</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a href="#">Voiceovers & Translations</a></li>
             </ul>
           </div>
 
-          <div class="col-md-4 footer-links">
+          <div className="col-md-4 footer-links">
             <h4>Our Social Networks</h4>
             <p>Connect with Us!</p>
-            <div class="social-links mt-3">
-              <a href="" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/ssingularitytechnologies/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="https://www.linkedin.com/company/ssingularity-technologies/"  target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              <a href="https://www.youtube.com/channel/UCI-BQW7t7FE9wMOisyssFGg" target="_blank" className="youtube"><i class='bx bxl-youtube'></i></a>
+            <div className="social-links mt-3">
+              <a href="" className="facebook"><i className="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/ssingularitytechnologies/" target="_blank" className="instagram"><i className="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/ssingularity-technologies/"  target="_blank" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+              <a href="https://www.youtube.com/channel/UCI-BQW7t7FE9wMOisyssFGg" target="_blank" classNameName="youtube"><i className='bx bxl-youtube'></i></a>
             </div>
           </div>
 
@@ -46,11 +46,11 @@ export const Footer = () => {
       </div>
     </div>
 
-    <div class="container footer-bottom clearfix">
-      <div class="copyright">
+    <div className="container footer-bottom clearfix">
+      <div className="copyright">
         &copy; Copyright <strong><span>SSINGULARITY</span></strong>. All Rights Reserved
       </div>
-      <div class="credits">
+      <div className="credits">
         Designed by Our Tech Team
       </div>
     </div>
