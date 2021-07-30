@@ -3,14 +3,10 @@ import Header from "../components/header/Header";
 import Hero from "../components/hero/Hero";
 import Clients from "../components/clients/Clients";
 import About from "../components/about/About";
-import WhyUs from "../components/whyus/WhyUs";
-import Skills from "../components/skills/Skills";
 import Services from "../components/services/Services";
 import CallToAction from '../components/calltoaction/CallToAction';
 import Portfolio from '../components/portfolio/Portfolio';
 import Team from '../components/team/Team';
-import Pricing from '../components/pricing/Pricing';
-import Faq from '../components/faq/Faq';
 import Contact from '../components/contact/Contact';
 import Footer from '../components/footer/Footer';
 import BackToTop from '../components/backtotop/BackToTop';
@@ -19,7 +15,7 @@ export const Home = () => {
 
   const [loader, setLoader] = useState(true);
   const checkLoader = () =>{
-    if(Header , Hero , Clients , About, Services , Portfolio, CallToAction, Team, Contact, Footer , BackToTop){
+    if(Header && Hero && Clients && About && Services && Portfolio && CallToAction && Team && Contact && Footer && BackToTop){
       setLoader(false);
      }
      else{
@@ -29,6 +25,10 @@ export const Home = () => {
   useEffect(() => {
     document.title = "SSINGULARITY";
     setInterval(checkLoader, 3000);
+    window.scrollTo({
+      top: 0, 
+      behavior: 'smooth'
+    });
   });
   return (
     <div>

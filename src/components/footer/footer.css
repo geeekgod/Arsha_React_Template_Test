@@ -3,7 +3,8 @@
 --------------------------------------------------------------*/
 #footer {
     font-size: 14px;
-    background: #37517e;
+    /* background: #37517e; */
+    background: rgba(72, 127, 177, 1);
   }
   
   #footer .footer-newsletter {
