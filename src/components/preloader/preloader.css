@@ -9,7 +9,7 @@
     bottom: 0;
     z-index: 9999;
     overflow: hidden;
-    background: #37517e;
+    background: #5089C6;
   }
   
   #preloader:before {
@@ -17,7 +17,7 @@
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
-    border: 6px solid #37517e;
+    border: 6px solid #5089C6;
     border-top-color: #fff;
     border-bottom-color: #fff;
     border-radius: 50%;

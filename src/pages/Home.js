@@ -37,14 +37,10 @@ export const Home = () => {
       {loader ? null : <Hero />}
       <Clients />
       <About />
-      {/* <WhyUs />
-      <Skills /> */}
       <Services />
       <Portfolio />
       <CallToAction />
       <Team />
-      {/* <Pricing />
-      <Faq /> */}
       <Contact/>
       <Footer />
       <BackToTop/>

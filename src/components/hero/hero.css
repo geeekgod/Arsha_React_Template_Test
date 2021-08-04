@@ -6,7 +6,8 @@
     height: auto;
     /* background: #37517e; template color */
     /* background: rgba(48,51,107, 0.9); */
-    background: rgba(72, 127, 177, 1);
+    /* background: rgba(72, 127, 177, 1); */
+    background: #5089C6;
   }
   
   #hero .container {

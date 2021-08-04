@@ -36,7 +36,7 @@ export const Services = () => {
             <div className="icon-box">
               <div className="icon"><img src={translationImg} alt=""/></div>
               <h4>Translation and Voiceovers</h4>
-              <p>We translate to localize your content making it personalized for your target audience.</p>
+              <p>We translate and give voices to localize your content making it personalized and contextual for your target audience.</p>
             </div>
           </div>
 

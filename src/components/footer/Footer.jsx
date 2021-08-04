@@ -35,7 +35,7 @@ export const Footer = () => {
             <h4>Our Social Networks</h4>
             <p>Connect with Us!</p>
             <div className="social-links mt-3">
-              <a href="" className="facebook"><i className="bx bxl-facebook"></i></a>
+              <a href="https://www.facebook.com/SSingularity-Technologies-108597878068952" target="_blank" className="facebook"><i className="bx bxl-facebook"></i></a>
               <a href="https://www.instagram.com/ssingularitytechnologies/" target="_blank" className="instagram"><i className="bx bxl-instagram"></i></a>
               <a href="https://www.linkedin.com/company/ssingularity-technologies/"  target="_blank" className="linkedin"><i className="bx bxl-linkedin"></i></a>
               <a href="https://www.youtube.com/channel/UCI-BQW7t7FE9wMOisyssFGg" target="_blank" classNameName="youtube"><i className='bx bxl-youtube'></i></a>
@@ -51,7 +51,7 @@ export const Footer = () => {
         &copy; Copyright <strong><span>SSINGULARITY</span></strong>. All Rights Reserved
       </div>
       <div className="credits">
-        Designed by Our Tech Team
+        Designed & Developed by Our Team
       </div>
     </div>
   </footer>

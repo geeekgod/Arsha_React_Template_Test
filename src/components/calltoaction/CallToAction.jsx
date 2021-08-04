@@ -13,7 +13,7 @@ export const CallToAction = () => {
             <p>Do get in touch with us for all your requirements and give your business and brand a personalised touch with our services. We will make sure that you will be thrilled as much as we are.</p>
           </div>
           <div className="col-lg-3 cta-btn-container text-center">
-            <a className="cta-btn align-middle" href="#">Let's Get In Touch</a>
+            <a className="cta-btn align-middle" href="#contact">Let's Get In Touch</a>
           </div>
         </div>
 

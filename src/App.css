@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 /* Rubik */
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Rubik:wght@300&display=swap');
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html{
   scroll-behavior: smooth;
 }

@@ -74,7 +74,7 @@ export const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="portfolio-content d-flex">
+          <div className="portfolio-content d-flex yip">
             <div className="img">
               <img src={yipLogo} draggable="false" alt="" />
             </div>

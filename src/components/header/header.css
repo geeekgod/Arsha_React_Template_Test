@@ -34,6 +34,7 @@
   }
   #header .logo a {
     /* color: #fff; template color */
+    font-family: 'Roboto', sans-serif;
     color: rgba(48,51,107, 0.8);
   }
   
@@ -78,7 +79,7 @@
     justify-content: space-between;
     padding: 10px 0 10px 20px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     color: rgba(48,51,107, 0.8);
     white-space: nowrap;
     transition: 0.3s;
