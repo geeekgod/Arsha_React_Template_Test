@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import './header.css';
 import logoImg from '../../img/logo.png';
+import {Link, useLocation} from 'react-router-dom'
 
 export const Header = () => {
 
@@ -22,20 +23,15 @@ export const Header = () => {
       }
     }
 
-  return (
-    // Header
-    <>
-      <header id="header" className={navbar ? "fixed-top header-scrolled" : "fixed-top "}>
-        <div className="container navWrapper d-flex align-items-center">
-          <div className="siteLogo">
-            <img src={logoImg} alt=""/>
-          <h1 className="logo me-auto">
-            <a href="">SSINGULARITY TECHNOLOGIES</a>
-          </h1>
-          </div>
-          <nav id="navbar" className={mobileNav ? "navbar navbar-mobile" : "navbar"}>
-            <ul>
-              <li>
+    const pageLocation = useLocation();
+    const currentLocation = pageLocation.pathname;
+    console.log(currentLocation);
+
+    const navLinks = () => {
+      if(currentLocation == "/"){
+        return(
+          <>
+           <li>
                 <a onClick={()=>{onMenuBtnClick()}} className="nav-link scrollto active" href="#hero">
                   Home
                 </a>
@@ -64,7 +60,61 @@ export const Header = () => {
                 <a onClick={()=>{onMenuBtnClick()}} className="nav-link scrollto" href="#contact">
                   Contact Us
                 </a>
+              </li> 
+          </>
+        );
+      }
+      else{
+        return(
+          <>
+            <li>
+                <Link onClick={()=>{onMenuBtnClick()}} className="nav-link scrollto active" to="/">
+                  Home
+                </Link>
               </li>
+              <li>
+                <Link onClick={()=>{onMenuBtnClick()}} className="nav-link scrollto" to="/">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link onClick={()=>{onMenuBtnClick()}} className="nav-link scrollto"to="/">
+                 Our Services
+                </Link>
+              </li>
+              <li>
+                <Link onClick={()=>{onMenuBtnClick()}} className="nav-link scrollto" to="/">
+                 Our Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link onClick={()=>{onMenuBtnClick()}} className="nav-link scrollto" to="/">
+                 Our Team
+                </Link>
+              </li>
+              <li>
+                <Link onClick={()=>{onMenuBtnClick()}} className="nav-link scrollto" to="/">
+                  Contact Us
+                </Link>
+              </li>
+          </>
+        );
+      }
+    }
+  return (
+    // Header
+    <>
+      <header id="header" className={navbar ? "fixed-top header-scrolled" : "fixed-top "}>
+        <div className="container navWrapper d-flex align-items-center">
+          <div className="siteLogo">
+            <img src={logoImg} alt="header logo"/>
+          <h1 className="logo me-auto">
+            <Link to="/">SSINGULARITY TECHNOLOGIES</Link>
+          </h1>
+          </div>
+          <nav id="navbar" className={mobileNav ? "navbar navbar-mobile" : "navbar"}>
+            <ul>
+              {navLinks()}
             </ul>
             <i onClick={()=>{onMenuBtnClick()}} className={mobileNav ? "bi bi-x mobile-nav-toggle" : "bi bi-list mobile-nav-toggle"}></i>
           </nav>
