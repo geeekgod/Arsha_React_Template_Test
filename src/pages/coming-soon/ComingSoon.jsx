@@ -29,7 +29,7 @@ export const ComingSoon = () => {
             {loader ? < PreLoader /> : null}
             <Header />
             <div className="comming-soon">
-                <h1>Comming Soon</h1>
+                <h1>Coming Soon</h1>
                 <div className="imgContainer">
                     <img className="commingSoonImg" src={commingSoonImg} alt="" />
                 </div>
