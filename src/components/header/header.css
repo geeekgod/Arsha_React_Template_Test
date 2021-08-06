@@ -32,7 +32,7 @@
   #header .siteLogo img{
     width: 80px !important;
   }
-  #header .logo a {
+  #header .logo {
     /* color: #fff; template color */
     font-family: 'Roboto', sans-serif;
     color: rgba(48,51,107, 0.8);

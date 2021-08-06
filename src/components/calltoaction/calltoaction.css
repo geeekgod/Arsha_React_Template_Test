@@ -16,8 +16,17 @@
   
   .cta p {
     color: #fff;
-    padding: 0 2rem 0 0rem;
-    width: 93%;
+  }
+  @media (min-width:768px) {
+    .cta p{
+      padding: 0 2rem 0 0rem;
+      width: 93%;
+    }
+  }
+  @media (max-width:427px) {
+    .cta h3{
+      padding: 0 2rem;
+    }
   }
   
   .cta .cta-btn {
