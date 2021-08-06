@@ -36,7 +36,8 @@ body {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 130px 0;
+  /* padding-top: 130px; */
   overflow: hidden;
 }
 
