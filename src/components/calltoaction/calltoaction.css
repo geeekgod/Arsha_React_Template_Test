@@ -62,4 +62,14 @@
       justify-content: flex-end;
     }
   }
-  
+  @media (max-width: 420px) {
+    .cta p{
+      width: 296px;
+      margin: auto;
+    }
+  }
+  @media (max-width:319px) {
+    .cta p{
+      width: 100%;
+    }
+  }

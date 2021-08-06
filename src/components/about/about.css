@@ -55,4 +55,15 @@
     color: #fff;
     text-decoration: none;
   }
-  
+  @media (max-width:468px) {
+    .about p{
+      width: 350px;
+      padding: 0 1rem;
+      margin: auto;
+    }
+  }
+  @media (max-width:330px) {
+    .about p{
+      width: 100%;
+    }
+  }

@@ -81,3 +81,14 @@
     flex-direction: column;
   }
 }
+@media (max-width:411px) {
+  .portfolio .section-title p{
+    width: 280px;
+    margin: auto;
+  }
+}
+@media (max-width:319px) {
+  .portfolio .section-title p{
+    width: 100%;
+  }
+}

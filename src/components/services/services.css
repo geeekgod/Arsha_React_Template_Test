@@ -49,4 +49,34 @@
   .services .icon-box:hover h4 {
     color: #47b2e4;
   }
+  @media (max-width:420px) {
+    .services .section-title p{
+      width: 330px;
+      margin: auto;
+    }
+    .services .icon-box p{
+      width: 230px;
+      padding: 0;
+      margin: auto;
+    }
+    .services .apps  h4{
+      width: 236px;
+      margin: auto;
+      margin-bottom: 15px;
+    }
+  }
+  @media (max-width:352px) {
+    .services .section-title p{
+      width: 100% ;
+    }
+  }
+  @media (max-width:330px) {
+    
+    .services .icon-box p{
+      width: 100%;
+    }
+    .services .apps  h4{
+      width: 100%;
+    }
+  }
   

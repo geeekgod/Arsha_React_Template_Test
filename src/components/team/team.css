@@ -106,3 +106,14 @@
       margin-bottom: 1rem;
     }
   }
+  @media (max-width: 365px) {
+    .team .section-title p{
+      width: 296px;
+      margin: auto;
+    }
+  }
+  @media (max-width:319px) {
+    .team .section-title p{
+      width: 100%;
+    }
+  }

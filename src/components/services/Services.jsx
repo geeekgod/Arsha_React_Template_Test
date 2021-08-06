@@ -11,7 +11,7 @@ export const Services = () => {
       <div className="container" data-aos="fade-up">
 
         <div className="section-title">
-          <h2>Services</h2>
+          <h2>Our Services</h2>
           <p>We are techies at head and content creators at heart!</p>
         </div>
 
@@ -40,7 +40,7 @@ export const Services = () => {
             </div>
           </div>
 
-          <div className="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+          <div className="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0 apps" data-aos="zoom-in" data-aos-delay="400">
             <div className="icon-box">
               <div className="icon"><img src={appDevelopmentImg} alt=""/></div>
               <h4>Bespoke Web and Mobile App</h4>
