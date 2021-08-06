@@ -19,7 +19,7 @@ export const ComingSoon = () => {
     }
     useEffect(() => {
         document.title = "Comming Soon SSingularity";
-        setInterval(checkLoader, 3000);
+        setInterval(checkLoader, 3500);
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
