@@ -36,6 +36,10 @@
     /* color: #fff; template color */
     font-family: 'Roboto', sans-serif;
     color: rgba(48,51,107, 0.8);
+    transition: all ease-in-out 0.3s;
+  }
+  #header .siteLogo:hover .logo{
+    color: #47b2e4;
   }
   
   #header .logo img {

@@ -13,19 +13,19 @@ export const Clients = () => {
   
           <div className="row" data-aos="zoom-in">
   
-            <div className="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+            <div className="col-lg-3 col-sm-6 d-flex align-items-center justify-content-center">
               <img src={synclarityLogoImg} className="img-fluid" alt="synclarity"/>
             </div>
   
-            <div className="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+            <div className="col-lg-3 col-sm-6 d-flex align-items-center justify-content-center">
               <img src={tnaacademyLogoImg} className="img-fluid" alt="tnaacademy"/>
             </div>
   
-            <div className="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+            <div className="col-lg-3 col-sm-6 d-flex align-items-center justify-content-center">
               <img src={questAllianceImg} className="img-fluid" alt="questallinace" />
             </div>
   
-            <div className="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+            <div className="col-lg-3 col-sm-6 d-flex align-items-center justify-content-center">
               <img src={arqLogoImg} className="img-fluid" alt="arq" />
             </div>
           </div>

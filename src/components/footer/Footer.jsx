@@ -52,7 +52,7 @@ export const Footer = () => {
 
       <div className="container footer-bottom clearfix">
         <div className="copyright">
-          &copy; Copyright <strong><span>SSINGULARITY</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>SSINGULARITY</span></strong>. <br/> All Rights Reserved
       </div>
         <div className="credits">
           Designed & Developed by Our Team

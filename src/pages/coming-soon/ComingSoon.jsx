@@ -4,7 +4,8 @@ import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 import PreLoader from '../../components/preloader/PreLoader';
 import commingSoonImg from '../../img/comming-soon.svg';
-import './comming-soon.css'
+import './comming-soon.css';
+import BackToTop from '../../components/backtotop/BackToTop';
 
 export const ComingSoon = () => {
     const [loader, setLoader] = useState(true);
@@ -35,10 +36,11 @@ export const ComingSoon = () => {
                 </div>
 
                 <div class="loader">
-  <div class="loaderBar"></div>
-</div>
+                    <div class="loaderBar"></div>
+                </div>
             </div>
             <Footer />
+            <BackToTop />
         </div>
     )
 }
