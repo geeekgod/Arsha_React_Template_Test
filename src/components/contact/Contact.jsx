@@ -33,7 +33,7 @@ export const Contact = () => {
         setValues({
           name: '', email: '', subject: '', body: '' 
         });
-        console.log(values);
+        alert('Your message sent!');
       } catch (e) {
         alert(`Request failed! ${e.message}`);
       }
