@@ -1,7 +1,44 @@
-import React from 'react';
+import {React, useState} from 'react';
 import './contact.css';
 
 export const Contact = () => {
+    const [values, setValues] = useState({
+      name: '', email: '', subject: '', body: '' 
+    });
+
+    const set = (name) => {
+      return ({ target: { value } }) => {
+        setValues(oldValues => ({...oldValues, [name]: value }));
+      }
+    };
+
+    const saveFormData = async () => {
+      const response = await fetch('https://api.ssingularity.co.in/', {
+        method: 'POST',
+        headers: { 
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer my-token',
+          'My-Custom-Header': 'foobar'
+        },
+        body: JSON.stringify(values)
+      });
+      return response;
+    }
+
+    const handleSubmit = async (event) => {
+      event.preventDefault(); // Prevent default submission    
+      try {
+        await saveFormData();      
+        console.log(values);
+        setValues({
+          name: '', email: '', subject: '', body: '' 
+        });
+        console.log(values);
+      } catch (e) {
+        alert(`Request failed! ${e.message}`);
+      }
+    }
+
     return (
         <section id="contact" className="contact">
       <div className="container" data-aos="fade-up">
@@ -39,24 +76,24 @@ export const Contact = () => {
           </div>
 
           <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+            <form className="php-email-form" onSubmit={handleSubmit}>
               <div className="row">
                 <div className="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" className="form-control" id="name" required/>
+                  <input type="text" name="name" className="form-control" required value={values.name} onChange={set('name')}/>
                 </div>
                 <div className="form-group col-md-6">
                   <label for="name">Your Email</label>
-                  <input type="email" className="form-control" name="email" id="email" required/>
+                  <input type="email" className="form-control" name="email" required value={values.email} onChange={set('email')}/>
                 </div>
               </div>
               <div className="form-group">
                 <label for="name">Subject</label>
-                <input type="text" className="form-control" name="subject" id="subject" required/>
+                <input type="text" className="form-control" name="subject" required value={values.subject} onChange={set('subject')}/>
               </div>
               <div className="form-group">
                 <label for="name">Message</label>
-                <textarea className="form-control" name="message" rows="10" required></textarea>
+                <textarea className="form-control" name="body" rows="10" required value={values.body} onChange={set('body')}></textarea>
               </div>
               <div className="my-3">
                 <div className="loading">Loading</div>
