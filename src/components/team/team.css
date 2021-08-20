@@ -95,6 +95,17 @@
   .team .member .social a + a {
     margin-left: 8px;
   }
+  @media (min-width:992px) {
+    .team .member{
+      max-height: 290px;
+    }
+    .team .member{
+      align-items: center;
+    }
+    .team .member-info{
+      margin: auto;
+    }
+  }
   @media (max-width:992px) {
     .team .member{
       flex-direction: column;

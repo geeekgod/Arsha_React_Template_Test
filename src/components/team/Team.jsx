@@ -121,41 +121,7 @@ export const Team = () => {
               </div>
             </div>
           </div>
-
-          <div className="col-md-6 mt-4">
-            <div
-              className="member d-flex align-items-start"
-              data-aos="zoom-in"
-              data-aos-delay="400"
-            >
-              <div className="pic">
-                <img
-                  src={kritikaImg}
-                  className="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div className="member-info">
-                <h4>Kritika Rangra</h4>
-                <span>Illustrator & Visual Designer</span>
-                <p>
-                We call her an Artist. She looks at designing, illustrating, representing our ideas through visuals making everything look pretty and classic!
-                </p>
-                <div className="social">
-                  <a href="https://www.facebook.com/kritika.rangra" target="_blank">
-                    <i className="ri-facebook-fill"></i>
-                  </a>
-                  <a href="https://www.instagram.com/starrrysea/" target="_blank">
-                    <i className="ri-instagram-fill"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/in/kritika-rangra-09/" target="_blank">
-                    {" "}
-                    <i className="ri-linkedin-box-fill"></i>{" "}
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
