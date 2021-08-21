@@ -55,7 +55,7 @@ export const Footer = () => {
           &copy; Copyright <strong><span>SSINGULARITY</span></strong>. <br/> All Rights Reserved
       </div>
         <div className="credits">
-          Designed & Developed by Our Team
+          Designed and Developed by Our Team
       </div>
       </div>
     </footer>
